@@ -1,0 +1,144 @@
+/* About Page Specific Styles */
+
+.align-center {
+    align-items: center;
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+    line-height: 1.5;
+}
+
+/* Abstract Hero Graphic */
+.about-hero-graphic {
+    width: 100%;
+    height: 60vh;
+    min-height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.blur-circle {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    animation: slowPulse 10s infinite alternate;
+}
+
+.c-1 {
+    width: 300px;
+    height: 300px;
+    background: var(--color-accent-cyan);
+    top: 10%;
+    right: 10%;
+}
+
+.c-2 {
+    width: 400px;
+    height: 400px;
+    background: var(--color-accent-blue);
+    bottom: -10%;
+    left: -10%;
+    opacity: 0.6;
+    animation-delay: -5s;
+}
+
+@keyframes slowPulse {
+    0% {
+        transform: scale(1) translate(0, 0);
+    }
+
+    100% {
+        transform: scale(1.2) translate(10%, 10%);
+    }
+}
+
+/* Values Section */
+.values-section {
+    background: var(--color-surface);
+}
+
+.value-card {
+    padding: var(--space-lg);
+    text-align: center;
+}
+
+.value-icon {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-md);
+    display: inline-block;
+}
+
+/* Timeline */
+.timeline-section {
+    padding: var(--space-2xl) 0;
+    position: relative;
+}
+
+.timeline-container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    padding: var(--space-xl) 0;
+}
+
+.timeline-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: linear-gradient(to bottom, transparent, var(--color-glass-border), transparent);
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    position: relative;
+    width: 100%;
+    margin-bottom: var(--space-xl);
+    clear: both;
+}
+
+.timeline-dot {
+    position: absolute;
+    top: var(--space-md);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+    background: var(--color-accent-blue);
+    border-radius: 50%;
+    box-shadow: 0 0 15px var(--color-accent-blue);
+    z-index: 2;
+}
+
+.timeline-content {
+    width: calc(50% - 50px);
+    padding: var(--space-lg);
+}
+
+.timeline-content.left {
+    float: left;
+    text-align: right;
+}
+
+.timeline-content.right {
+    float: right;
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+    .timeline-line {
+        left: 20px;
+    }
+
+    .timeline-dot {
+        left: 20px;
+    }
+
+    .timeline-content {
+        width: calc(100% - 60px);
+        float: right !important;
+        text-align: left !important;
+    }
+}

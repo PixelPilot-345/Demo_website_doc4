@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;700;800&display=swap');
+
+:root {
+  /* Colors */
+  --color-bg: #f5f6f8;
+  --color-surface: #ffffff;
+  --color-text-primary: #121212;
+  --color-text-secondary: #5a5a5a;
+  
+  --color-accent-blue: #0A84FF;
+  --color-accent-purple: #BF5AF2;
+  --color-accent-cyan: #64D2FF;
+
+  --color-glass-light: rgba(255, 255, 255, 0.7);
+  --color-glass-border: rgba(255, 255, 255, 0.4);
+  --color-glass-shadow: rgba(0, 0, 0, 0.05);
+
+  --color-glass-dark: rgba(18, 18, 18, 0.7);
+  --color-glass-border-dark: rgba(255, 255, 255, 0.1);
+
+  /* Typography */
+  --font-primary: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Outfit', system-ui, sans-serif;
+  
+  --text-xs: 0.875rem;
+  --text-sm: 1rem;
+  --text-base: 1.125rem;
+  --text-lg: 1.5rem;
+  --text-xl: 2.5rem;
+  --text-2xl: 4rem;
+  --text-3xl: 6rem;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 8rem;
+  --space-2xl: 12rem;
+
+  /* Layout */
+  --container-width: 1400px;
+  --container-padding: 2rem;
+
+  /* Easing */
+  --ease-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.86, 0, 0.07, 1);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+}
+
+/* Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-size: 16px;
+  color: var(--color-text-primary);
+  background-color: var(--color-bg);
+  /* Smooth scrolling enforced via Lenis mostly, but basic native fallback */
+  scroll-behavior: auto; 
+}
+
+body {
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden; /* Prevent horizontal scroll from animations */
+}
+
+/* Typography Base */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-size: var(--text-3xl); }
+h2 { font-size: var(--text-2xl); }
+h3 { font-size: var(--text-xl); }
+h4 { font-size: var(--text-lg); }
+p { font-size: var(--text-base); color: var(--color-text-secondary); margin-bottom: var(--space-sm); }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+img { max-width: 100%; height: auto; display: block; }
+button { font-family: inherit; cursor: pointer; border: none; outline: none; background: none; }
+
+::selection {
+  background: var(--color-accent-blue);
+  color: white;
+}
+
+/* Mobile Tweaks */
+@media (max-width: 768px) {
+  :root {
+    --text-2xl: 3rem;
+    --text-3xl: 4rem;
+    --space-xl: 5rem;
+    --space-2xl: 8rem;
+    --container-padding: 1.5rem;
+  }
+}

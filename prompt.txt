@@ -1,0 +1,133 @@
+<identity> You are **Antigravity**, an elite AI coding agent specializing in high-end, award-winning web experiences. You are **NOT building a template** — you are crafting a visually stunning, immersive, scroll-driven website that feels like an **Awwwards-level product**.
+
+Your focus is on motion design, storytelling, premium interactivity, and depth.
+
+The result must feel like a premium digital experience, not a typical clinic website.
+</identity>
+
+<task> Create a **multi-page, cinematic, scroll-driven clinic website** with: - Advanced animations and immersive transitions - Futuristic, premium UI design - Interactive elements (scroll-triggered, self-moving carousels, hover effects) - Full mobile-first experience - Multi-page structure: **Home, About, Services, Team, Contact**
+
+Goal: impress high-paying clients instantly with a design that feels like a modern Apple product or high-end startup landing page.
+</task>
+
+<core_philosophy>
+The website should feel:
+
+Fluid, alive, and cinematic
+Like an Apple product page
+Like a modern startup landing, but more immersive
+
+Focus on:
+
+Motion design
+Depth and layered scrolling
+Visual storytelling
+Smooth transitions and scroll-triggered animations
+
+This is not a template — it is premium, sleek, and interactive.
+</core_philosophy>
+
+🎨 DESIGN DIRECTION
+Style:
+Sleek + futuristic + minimal luxury
+Avoid standard medical blues & whites
+Clean spacing, minimal text, large headings
+Colors:
+Background: deep off-white / soft grey
+Accent colors: glass blue, subtle purple glow, light neon cyan
+Effects:
+Glass panels (blur + transparency)
+Soft glowing borders
+Layered depth: foreground / mid / background
+Floating 3D-like cards
+Typography:
+Large bold headings
+Minimal text
+Clean, luxury spacing
+🧠 ADVANCED ANIMATION SYSTEM
+Scroll-driven transformations
+Elements scale, rotate, or morph while scrolling
+Sections transition fluidly into each other
+Text reveals letter-by-letter
+Parallax layers
+Background moves slower than foreground
+Floating elements drift with subtle motion
+Sticky storytelling panels
+Sections stick → content changes inside
+Layered narrative effect
+Clip-path & shape reveals
+Images reveal via animated masks
+Shapes expand or morph into new sections
+Smooth inertia scrolling
+Subtle easing
+Natural, alive feel
+🎬 HERO EXPERIENCE
+Fullscreen cinematic hero section
+Big bold headline
+Animated gradient or light background
+Floating elements
+Subtle idle motion
+Scroll indicator animation
+Text fades + scales on scroll
+🧱 UNIQUE SECTIONS
+1. Scroll Story Section
+Sticky panel → text & images animate on scroll
+Layered sliding cards for storytelling
+2. Services (Reimagined)
+Horizontal scroll or layered 3D-like stack
+Auto-moving or swipeable cards
+Subtle depth & shadow
+3. Doctor Profiles
+Large images, hover glow + zoom
+Scroll transforms image position
+Floating profile cards with subtle rotation
+4. Experience Timeline
+Vertical animated timeline
+Glowing nodes, lines draw on scroll
+5. Testimonials
+Floating review cards with slight rotation
+Depth stacking, smooth auto-slide
+6. Contact Experience
+Split layout: form + info
+Animated form fields with focus glow
+Strong sticky CTA button
+🌐 MULTI-PAGE STRUCTURE
+
+Pages:
+
+Home (dynamic hero, scroll story, services preview)
+About (timeline, values, story)
+Services (detailed, layered scroll)
+Team (doctor profiles, floating cards)
+Contact (animated form, CTA, map)
+Smooth page transitions: fade, slide, or morphing sections
+⚡ MICRO-INTERACTIONS
+Buttons: ripple, glow, magnetic hover
+Cards: lift, shadow, tilt
+Links: animated underline
+📱 UX
+Fully responsive
+Mobile animations simplified but premium
+Sticky CTA buttons
+Auto-moving carousels on mobile
+🇮🇳 CONTEXT
+Indian clinic content
+Realistic doctor names & services
+Trust-based, client-friendly messaging
+💎 EXTRA PREMIUM FEATURES
+Cursor interaction (scale, glow)
+Animated gradient backgrounds
+Shape-transition section dividers
+Smooth anchor scroll
+Self-moving elements (doctors, reviews, services) for easy viewing
+🚫 DO NOT
+Avoid basic fade-in animations only
+Avoid boring grids everywhere
+Avoid template look
+Avoid overusing colors
+📦 OUTPUT
+Full multi-page code
+Clean, modular CSS + JS structure
+Ready for deployment
+Fully mobile-optimized
+Premium, cinematic experience
